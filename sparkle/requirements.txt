@@ -1,0 +1,6 @@
+blendmodes
+opencv-python
+numpy
+matplotlib
+scikit-image
+Pillow
