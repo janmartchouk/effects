@@ -27,5 +27,14 @@ Example:
 INPUT: `python ./sparkle.py ./sparkle_in_2.jpg -b 15` | OUTPUT
 ------|--------
 ![Sparkle Example Input #1](https://github.com/realnajan/effects/blob/master/examples/sparkle_in_1.jpg) | ![Sparkle Example Output #1](https://github.com/realnajan/effects/blob/master/examples/sparkle_out_1.gif)
-INPUT: `python .\sparkle.py .\sparkle_in_2.jpg -b 15 -c true` | OUTPUT
+INPUT: `python ./sparkle.py ./sparkle_in_2.jpg -b 15 -c true` | OUTPUT
 ![Sparkle Example Input #2](https://github.com/realnajan/effects/blob/master/examples/sparkle_in_2.jpg) | ![Sparkle Example Output #2](https://github.com/realnajan/effects/blob/master/examples/sparkle_out_2.gif)
+
+## holotone.py
+
+Creates a GIF that interestingly transitions between three duo-tone versions of a still image. **Requires [carloe/duotone](https://github.com/carloe/duotone-py.git)**.
+
+INPUT: `python ./holotone.py ./holo_in_1.jpg -t 1 -o holo_out_1` | OUTPUT
+---------------|---------------
+![Holo Example Input #1](https://github.com/realnajan/effects/blob/master/examples/holo_in_1.jpg) | ![Holo Example Output #1](https://github.com/realnajan/effects/blob/master/examples/holo_out_1.gif)
+
