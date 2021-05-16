@@ -73,7 +73,7 @@ for i in tqdm(range(1, 21)):
     if (i % 2) == 0:
         frame, duration = process(input, brush, 2)
         if cut:
-            frame = frame[(brush*3):(height-(brush*3)), (brush*3):(width-(brush*3))]
+            frame = frame[(brush*4):(height-(brush*4)), (brush*4):(width-(brush*4))]
         frame = cv2.cvtColor(frame, cv2.COLOR_BGRA2RGBA)
         frame = Image.fromarray(frame)
         frames.append(frame)
