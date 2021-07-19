@@ -26,7 +26,7 @@ Creates a loki intro mock from given text.
 Example:
 INPUT: `python ./loki.py LOKI` | INPUT: `python ./loki_glitch.py FUCK`
 ------|--------
-![Sparkle Example Input #1](https://github.com/realnajan/effects/blob/master/loki/out_normal.gif) | ![Sparkle Example Input #2](https://github.com/realnajan/effects/blob/master/loki/out_glitch.gif)
+![Loki Example Output #1](https://github.com/realnajan/effects/blob/master/loki/out_normal.gif) | ![Loki Example Output #2](https://github.com/realnajan/effects/blob/master/loki/out_glitch.gif)
 
 ## sparkle.py
 
